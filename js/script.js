@@ -6,7 +6,7 @@ function addList() {
   var input = document.getElementById("input").value;
   var lentry = document.createElement("li");
   if (count % 3 == 0) {
-    lentry.setAttribute("style", "color:red");
+    lentry.style.color = "red";
   }
   lentry.appendChild(document.createTextNode(input));
   if (input !== "" && input !== null) {
