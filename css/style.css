@@ -2,12 +2,3 @@ ul {
   float: right;
   margin-right: 60%;
 }
-
-li:nth-child(1) {
-  color: "red";
-}
-
-#list {
-  float: right;
-  margin-right: 60%;
-}

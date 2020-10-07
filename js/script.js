@@ -12,6 +12,7 @@ function addList() {
   if (input !== "" && input !== null) {
     list.appendChild(lentry);
   } else {
+    count -= 1;
     alert("Please provide the valid input");
   }
   document.getElementById("input").value = "";
