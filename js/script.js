@@ -1,6 +1,11 @@
 var list = document.getElementById("list");
 var count = 0;
 
+
+
+
+document.getElementById("button").addEventListener('click', addList)
+
 function addList() {
   count += 1;
   var input = document.getElementById("input").value;
